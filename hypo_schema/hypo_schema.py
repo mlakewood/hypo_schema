@@ -91,7 +91,6 @@ def gen_one_of(prop):
     for value in prop["oneOf"]:
         possible_values.append(get_generator(value))
 
-    pprint(possible_values)
     return hs.one_of(possible_values)
 
 
