@@ -1,10 +1,9 @@
 import unittest
-from pprint import pprint
 
 from jsonschema import validate
 
 from hypothesis import given, settings
-from hypo_schema.hypo_schema import generate_from_schema
+from hyposchema.hypo_schema import generate_from_schema
 
 
 EXAMPLE_JSON_SCHEMA= {

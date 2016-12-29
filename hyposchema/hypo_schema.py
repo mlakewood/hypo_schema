@@ -2,7 +2,7 @@ from random import randint
 
 from hypothesis import strategies as hs
 
-from hypo_schema.regex import regex
+from hyposchema.regex import regex
 
 
 def gen_int(prop):
