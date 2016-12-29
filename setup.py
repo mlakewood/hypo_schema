@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name = 'hypo_schema',
+    name = 'hypo-schema',
     packages = ['hypo_schema'], # this must be the same as the name above
-    version = '0.2.1',
+    version = '0.2.3',
     description = 'Generate Hypothesis generators from a json schema definition',
     author = 'Mark Lakewood',
     author_email = 'underplank@gmail.com',
